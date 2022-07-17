@@ -1,0 +1,200 @@
+.top-container {
+  background-color: #66bfbf;
+  position: relative;
+  padding-top: 100px;
+  height: 687px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  font-family: 'Inter', sans-serif;
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.skills {
+  margin: 30px auto 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  padding-bottom: 80px;
+}
+
+.contact-message {
+  margin-bottom: 40px;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Inter', sans-serif
+  font-size: 200%;\
+  color: #40514E;
+
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  width: 40%;
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4.5rem;
+/* rem is em, but the r placement signifies that it will ignore all "parent" containers. Such as body css modifications*/
+  margin: 80px auto 0 auto;
+/* margins: top right bottom left */
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
+.web-show {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.mountain {
+  width: 50%;
+  margin-top: 5px;
+
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+#h2-contact {
+  font-size: 2rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3em;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.my-links {
+  margin: auto 10px auto auto;
+}
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.illust-png {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.art-png {
+  width: 40%;
+  margin-left: 30px;
+  float: right;
+}
+
+.skill-description {
+
+}
+
+.skill-description2 {
+
+}
+
+.profile {
+  text-align: center;
+}
+
+.self-portrait {
+  height: 300px;
+}
+
+#descrip {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
